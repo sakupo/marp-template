@@ -106,7 +106,7 @@ section.slides h4,
 section.slides h5,
 section.slides h6 {
   font-size: 36px;
-  font-weight: normal;
+  font-weight: bold;
 }
 /* h1:スライドタイトル */
 section.slides h1 {

@@ -5,13 +5,13 @@ paginate: true
 ---
 <!--
 _class: title
-_header: "20//"
-_footer: "@saku"
+_header: "Header"
+_footer: "Footer"
 _paginate: false
 -->
 # タイトル
-## 著者名
-###  会議名
+## サブタイトル1
+### サブタイトル2
 #### 氏名
 
 ---
