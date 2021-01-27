@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: sakupostyle
+theme: style
 paginate: true
 ---
 <!--

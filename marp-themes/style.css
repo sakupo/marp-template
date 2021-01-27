@@ -1,4 +1,4 @@
-/* @theme sakupostyle */
+/* @theme style */
 
 @import 'default';
 
@@ -14,13 +14,13 @@ section {
 }
 header {
   color: #666;
-  font-size: 36px;
+  font-size: 24px;
   text-align: right;
   left: 50px;
 }
 footer {
   color: #666;
-  font-size: 36px;
+  font-size: 24px;
   text-align: right;
   right: 50px;
 }
@@ -48,6 +48,7 @@ section.title h3 {
 }
 section.title h4 {
     font-family: "Arial", "Hiragino Maru Gothic ProN";
+    font-weight: normal;
     font-size: 36px;
     text-align: center;
     width: 880px; /* 960 - padding*2 */
