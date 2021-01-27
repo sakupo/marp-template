@@ -26,6 +26,11 @@ footer {
 }
 
 /* title */
+section.title {
+  font-family: "Arial", "Hiragino Maru Gothic ProN";
+  font-size: 36px;
+  text-align: center;
+}
 section.title h1 {
     color: #048099;
     font-family: "Arial", "Hiragino Kaku Gothic ProN";
@@ -47,13 +52,10 @@ section.title h3 {
   margin-top: 0px;
 }
 section.title h4 {
-    font-family: "Arial", "Hiragino Maru Gothic ProN";
-    font-weight: normal;
-    font-size: 36px;
-    text-align: center;
-    width: 880px; /* 960 - padding*2 */
-    position:absolute;
-    bottom: 100px;
+  font-weight: normal;
+  width: 880px; /* 960 - padding*2 */
+  position:absolute;
+  bottom: 100px;
 }
 
 /* slides */
