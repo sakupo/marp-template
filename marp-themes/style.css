@@ -1,0 +1,155 @@
+/* @theme sakupostyle */
+
+@import 'default';
+
+/* All */
+section {
+  background: #F8FBFC;
+  color: #333;
+  font-family: "Arial", "Hiragino Maru Gothic ProN";
+  font-size: 36px;
+  width: 960px; height: 720px; /* 4:3 */
+  padding: 40px;
+  word-break: break-all;
+}
+header {
+  color: #666;
+  font-size: 36px;
+  text-align: right;
+  left: 50px;
+}
+footer {
+  color: #666;
+  font-size: 36px;
+  text-align: right;
+  right: 50px;
+}
+
+/* title */
+section.title h1 {
+    color: #048099;
+    font-family: "Arial", "Hiragino Kaku Gothic ProN";
+    font-size: 60px;
+    text-align: center;
+}
+section.title h2 {
+  color: #666;
+  font-family: "Arial", "Hiragino Maru Gothic ProN";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0px;
+}
+section.title h3 {
+  color: #666;
+  font-family: "Arial", "Hiragino Maru Gothic ProN";
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0px;
+}
+section.title h4 {
+    font-family: "Arial", "Hiragino Maru Gothic ProN";
+    font-size: 36px;
+    text-align: center;
+    width: 880px; /* 960 - padding*2 */
+    position:absolute;
+    bottom: 100px;
+}
+
+/* slides */
+section.slides {
+  font-size: 36px;
+  text-align: left;
+  vertical-align: top;
+  justify-content: start; 
+  padding: 144px 0px 0px 80px;
+}
+section.slides * {
+  margin-top: 0px ;
+  margin-bottom: 0px ;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+/* リスト */
+section.slides ul,
+section.slides ol {
+  padding-left: 60px;
+}
+section.slides li{
+  padding-left: 0px;
+}
+
+/* 強調 */
+section.slides strong {
+  color: #c00034;
+  padding: 0px;
+}
+
+/* グルーピング */
+section.slides div {
+  padding-left: 30px;
+}
+section.slides span {
+  padding-left: 0px;
+}
+/* 補足説明 */
+section.slides .sup{
+  padding-left: 30px;
+}
+
+/* 見出し共通 */
+section.slides h1,
+section.slides h2,
+section.slides h3,
+section.slides h4,
+section.slides h5,
+section.slides h6 {
+  font-size: 36px;
+  font-weight: normal;
+}
+/* h1:スライドタイトル */
+section.slides h1 {
+    color: #048099;
+    font-family: "Arial", "Hiragino Kaku Gothic ProN";
+    font-size: 60px;
+    position: absolute;
+    left: 50px; top: 50px;
+    margin: 0px;
+    padding-left: 0px;
+}
+/* h2:スライド内見出し */
+section.slides h2 {
+    font-size: 48px;
+    padding-left: 0px;
+}
+/* h3:用語解説 */
+section.slides h3 {
+  font-size: 48px;
+  padding-left: 0px;
+}
+section.slides h3:before{
+  content: "■ ";
+}
+/* h4:注意事項 */
+section.slides h4 {
+  font-size: 48px;
+  color:#333 ;
+  padding-left: 0px;
+}
+section.slides h4:before{
+  font-size: 33px;
+  content: "◆ ";
+}
+
+/* pagenation */
+section::after {
+  background: #048099;
+  color: #fff;
+  text-shadow: 1px 1px 0 #fff;
+  font-size: 64px;
+  text-align: center;
+  position: absolute;
+  right: 20px; top: 20px;
+  width: 100px; height: 100px;
+}
